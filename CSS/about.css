@@ -1,0 +1,16 @@
+nav img {
+    height: auto;
+    width: 80px;
+    max-width: 85px;
+    min-width: none;
+    margin: 1rem 0px 0px 0px;
+}
+#Taco-img-beer-header {
+    width: min(100%, 48rem);
+}
+
+#Taco-img-beer {
+    margin: 1rem 0px 0px 0px;
+    display: block;
+    
+}
