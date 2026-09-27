@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
+        <h1>Contact Us</h1>
         <nav>
-            <h1>Contact Us</h1>
-
+            <h2>Our other Areas</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About LTS</a></li>
@@ -18,10 +18,46 @@
                 <li><a href="time.html">Store Hours</a></li>
             </ul>
         </nav>
-        <div id="taco-image-header">
-            <img src="../img/Taco.jpg" alt="Taco">
-        </div>
-
+        <figure>
+            <div id="taco-image-header">
+                <img id="taco-image" src="../img/Taco.jpg" alt="Taco">
+                <figcaption>Little Taco Shop Tacos</figcaption>
+            </div>
+        </figure>
     </header>
+    <main>
+        <article>
+            <h1>Our Contact Form</h1>
+                <form action="contact-form.php">
+                    <fieldset>
+                        <legend>Send Us A Meassage</legend>
+                        <!-- Name Label -->
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="Please Enter your name" autocomplete="on" required>
+                        </div>
+                        <!-- E-mail Label -->
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Please Enter your Email" autocomplete="on" required>
+                        </div>
+                        <div>
+                            <label for="meassage">Your Meassage:</label>
+                            <br>
+                            <textarea name="meassage" id="meassage" cols="30" rows="10"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <button type="send">Send</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </fieldset>
+                </form>
+                
+        </article>
+        
+    </main>
+
 </body>
 </html>
