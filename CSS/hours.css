@@ -1,0 +1,11 @@
+#taco-image-header {
+    width: min(100%, 48rem);
+}
+
+#taco-image-header img {
+    margin-top: 1rem;
+    display: block;
+    max-width: 55%;
+    width: 50%;
+    height: auto;
+}
