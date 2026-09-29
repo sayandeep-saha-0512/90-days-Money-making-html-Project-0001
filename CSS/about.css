@@ -1,10 +1,8 @@
-nav img {
-    height: auto;
-    width: 80px;
-    max-width: 85px;
-    min-width: none;
-    margin: 1rem 0px 0px 0px;
+mark{
+    color: red;
+    background-color: yellow;
 }
+
 #Taco-img-beer-header {
     width: min(100%, 48rem);
 }
@@ -12,5 +10,55 @@ nav img {
 #Taco-img-beer {
     margin: 1rem 0px 0px 0px;
     display: block;
-    
+}
+
+.Underline-LTS{
+    text-decoration: underline;
+    text-decoration: dotted;
+}
+
+/* The Table Layout */
+
+table{
+    border-collapse: separate;
+    border-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    text-align: center;
+}
+
+/* Table Header & details */
+
+th, td{
+    border: 1px solid #777;
+    padding: 8px;
+    background-color: #fff;
+}
+
+/* Bold Header's */
+
+.header-row th {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Bottom Footer Row Spaceing all 3 columns */
+
+.banner {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+}
+
+/* Styleing for the taco type text */
+
+.taco-type {
+    font-family: 'arial' sans-serif;
+    font-weight: bold;
+}
+
+/* Light Text Color for matching the Text Color */
+
+.data-cell{
+    color: #555;
 }
